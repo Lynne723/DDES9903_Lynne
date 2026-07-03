@@ -2309,6 +2309,15 @@ MonoBehaviour:
   rBody: {fileID: 0}
   forceFactor: 10
   randomComponent: 0
+  interactionAudio: {fileID: 0}
+  feedbackCanvas: {fileID: 0}
+  uiDisplayTime: 2
+  targetLight: {fileID: 0}
+  objectA: {fileID: 0}
+  brightnessStep: 1
+  objectS: {fileID: 0}
+  objectH: {fileID: 0}
+  disappearDelay: 2
 --- !u!59 &381199426
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3903,6 +3912,15 @@ MonoBehaviour:
   rBody: {fileID: 0}
   forceFactor: 10
   randomComponent: 0
+  interactionAudio: {fileID: 0}
+  feedbackCanvas: {fileID: 0}
+  uiDisplayTime: 0
+  targetLight: {fileID: 0}
+  objectA: {fileID: 0}
+  brightnessStep: 1
+  objectS: {fileID: 0}
+  objectH: {fileID: 0}
+  disappearDelay: 10
 --- !u!59 &769067722
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4231,6 +4249,15 @@ MonoBehaviour:
   rBody: {fileID: 0}
   forceFactor: 10
   randomComponent: 0
+  interactionAudio: {fileID: 0}
+  feedbackCanvas: {fileID: 0}
+  uiDisplayTime: 2
+  targetLight: {fileID: 0}
+  objectA: {fileID: 0}
+  brightnessStep: 1
+  objectS: {fileID: 0}
+  objectH: {fileID: 0}
+  disappearDelay: 2
 --- !u!59 &803901344
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -7896,6 +7923,15 @@ MonoBehaviour:
   rBody: {fileID: 0}
   forceFactor: 10
   randomComponent: 0
+  interactionAudio: {fileID: 0}
+  feedbackCanvas: {fileID: 0}
+  uiDisplayTime: 2
+  targetLight: {fileID: 0}
+  objectA: {fileID: 0}
+  brightnessStep: 1
+  objectS: {fileID: 0}
+  objectH: {fileID: 0}
+  disappearDelay: 2
 --- !u!59 &1432579370
 HingeJoint:
   m_ObjectHideFlags: 0
