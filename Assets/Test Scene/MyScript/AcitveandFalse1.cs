@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class RectAreaMonitor : MonoBehaviour
+public class RectAreaMonitor1 : MonoBehaviour
 {
     [Header("Rectangle Area Settings")]
     public Vector3 areaSize = new Vector3(4, 2, 3);
@@ -41,7 +41,7 @@ public class RectAreaMonitor : MonoBehaviour
 
         if (inArea)
         {
-            objB.gameObject.SetActive(true);
+            objB.gameObject.SetActive(false);
             hasTriggered = true; // Lock state, no further execution
         }
     }
@@ -66,6 +66,6 @@ public class RectAreaMonitor : MonoBehaviour
     {
         hasTriggered = false;
         if (objB != null)
-            objB.gameObject.SetActive(false);
+            objB.gameObject.SetActive(true);
     }
 }
